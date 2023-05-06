@@ -7,13 +7,4 @@ Feature: API testing
       | Name      | Home & garden               |
       | CanRelist | true                        |
       | desc      | Better position in category |
-#    And   Name "Feature Combo" has description "Better position in category"
-
-  Scenario: Verify JSON responsee
-    When  API Call has been made "https://api.tmsandbox.co.nz/v1/Categories/6329/Details.json?catalogue=false "
-    Then  Verify Response
-      | Name      | Home & garden |
-      | CanRelist | true          |
-#    And   Name "Feature" has description "Better position in category"
-
-
+    And   Name "Feature Combo" has description "Better position in category"
