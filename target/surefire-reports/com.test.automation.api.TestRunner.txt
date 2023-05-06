@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.test.automation.api.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in com.test.automation.api.TestRunner
+initializationError(com.test.automation.api.TestRunner)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NoClassDefFoundError: io/cucumber/gherkin/GherkinParser
+Caused by: java.lang.ClassNotFoundException: io.cucumber.gherkin.GherkinParser
+
