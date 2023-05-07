@@ -10,11 +10,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(publish = true,
 
         glue = {
-                "com.test.automation.api",
+                "com.test.automation.api","com.test.automation.api.config"
         },
-        plugin = {
-//                "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"
-        }, monochrome = false,
+        plugin = {"pretty","html:target/cucumber-reports.html"
+        }, monochrome = true,
         features = {
                 "classpath:features"
         }

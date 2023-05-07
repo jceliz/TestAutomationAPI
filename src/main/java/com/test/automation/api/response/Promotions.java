@@ -1,7 +1,7 @@
 package com.test.automation.api.response;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
+import lombok.*;
 
 @Data
 public class Promotions {

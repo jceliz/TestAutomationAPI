@@ -7,6 +7,8 @@ import org.junit.Assert;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
+import org.testng.asserts.SoftAssert;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,9 +24,19 @@ public class BaseStepDefs {
     Gson gson = new Gson();
     Map<String, String> keyVal;
     List<List<String>> listOfDt;
+    SoftAssert softAssert = new SoftAssert();
 
+
+    public void assertExpectedAndActualResponse(String fieldName, String expectedResponse, String actualResponse){
+        softAssert.assertEquals(expectedResponse.equalsIgnoreCase(actualResponse), fieldName + " should be matched.");
+    }
     public void assertExpectedAndActualResponse(String expectedResponse, String actualResponse){
         Assert.assertEquals(expectedResponse,actualResponse);
+    }
+
+    public void assertActualContainsExpectedValue(String expectedResponse, String actualResponse){
+        Assert.assertTrue(actualResponse.contains(expectedResponse));
+
     }
 
     public List<String> getListOfString(String text){
