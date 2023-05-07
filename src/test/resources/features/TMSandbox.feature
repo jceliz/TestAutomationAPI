@@ -6,4 +6,4 @@ Feature: API testing
     Then  Verify Response
       | Name      | Home & garden |
       | CanRelist | true          |
-    And   Name "Feature" has description "Better position in categoryy"
+    And   Name "Feature" has description "Better position in category"
