@@ -30,6 +30,10 @@ https://maven.apache.org/install.html
 # How to run test
 Using Maven, from root directory of your project. Run this command. This will run all your test declared on your feature file
 
+<img width="485" alt="image" src="https://user-images.githubusercontent.com/52147889/236659583-250d10eb-15c5-4a6a-a24a-1d6dea6050c4.png">
+
+
+
 # How to generate Reports
 
 Cucumber 6 has built in report. Which is generated automatically if you active it in the config.
