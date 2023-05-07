@@ -17,7 +17,7 @@ And Open file with your IDE
 
 
 # Setup
-Install an IDE of ypir choice. (For running the test using Junit) e.g. Eclipse, Intellij, VScode, Pycharm
+Install an IDE of your choice. (For running the test using Junit) e.g. Eclipse, Intellij, VScode, Pycharm
 Install Java https://www.guru99.com/install-java.html
 
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/52147889/236658911-bb52e3bc-96dd-41f1-8f39-dae7bdcf2e67.png">
