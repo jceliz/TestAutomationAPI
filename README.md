@@ -28,7 +28,7 @@ https://maven.apache.org/install.html
 <img width="778" alt="image" src="https://user-images.githubusercontent.com/52147889/236658946-096480cd-6e29-4a87-b1dc-0baab8a23015.png">
 
 # How to run test
-Using Maven, from root directory of your project. Run this command. This will run all your test declared on your feature file
+Using Maven, from root directory of your project. Run this command (>mvn test). This will run all your test declared on your feature file
 
 <img width="485" alt="image" src="https://user-images.githubusercontent.com/52147889/236659583-250d10eb-15c5-4a6a-a24a-1d6dea6050c4.png">
 
